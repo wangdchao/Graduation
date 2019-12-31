@@ -1,4 +1,4 @@
-# 挣闲钱
+# 待定
 
 0. [软件设计综合实验要求Check List](project/check_list.md)
 1. [About（项目规划）](project/about.md)
