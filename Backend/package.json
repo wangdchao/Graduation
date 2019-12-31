@@ -1,0 +1,14 @@
+{
+  "name": "system-backend",
+  "version": "1.0.0",
+  "description": "the_code_of_backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wangdch7@mail2.sysu.edu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
