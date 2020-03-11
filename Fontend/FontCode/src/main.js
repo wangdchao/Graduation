@@ -3,13 +3,23 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
+import {post,get} from './filejs/httpRequest'
+import crypto from 'crypto'
+//import Echarts from 'echarts'
 
+//Vue.use(Echarts)
+Vue.use(crypto)
+Vue.use(ElementUI)
 Vue.config.productionTip = false
-
-/* eslint-disable no-new */
+Vue.prototype.$post = post
+Vue.prototype.$get = get
+//Vue.prototype.echarts = Echarts
 new Vue({
   el: '#app',
   router,
+  crypto,
   components: { App },
   template: '<App/>'
 })
