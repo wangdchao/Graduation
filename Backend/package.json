@@ -9,6 +9,6 @@
   "author": "wangdch7@mail2.sysu.edu",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
